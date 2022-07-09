@@ -3,7 +3,7 @@ Turkish taboo game
 
 ## main screen
 
-![main](Documentation/main.png)
+![main](Documentation/main.PNG)
 
 ## simple tour
 
@@ -23,7 +23,7 @@ Turkish taboo game
 
 ## score view
 
-![score](Documentation/score-view.png)
+![score](Documentation/score-view.PNG)
 
 
 
