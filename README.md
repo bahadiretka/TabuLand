@@ -3,7 +3,7 @@ Turkish taboo game
 
 ## main screen
 
-![main](Documentation/main.PNG)
+<img src="Documentation/main.PNG" width="100" height="100">
 
 ## simple tour
 
