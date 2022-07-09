@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790FF8F428733FE70052E4F6 /* TabuLandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790FF8F328733FE70052E4F6 /* TabuLandApp.swift */; };
+		790FF8F828733FE90052E4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790FF8F728733FE90052E4F6 /* Assets.xcassets */; };
+		790FF8FB28733FE90052E4F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790FF8FA28733FE90052E4F6 /* Preview Assets.xcassets */; };
+		7967B09D287682CC00B9003E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B09C287682CC00B9003E /* CardView.swift */; };
+		7967B09F2876832200B9003E /* TabulandData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B09E2876832200B9003E /* TabulandData.swift */; };
+		7967B0A22876838900B9003E /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0A12876838900B9003E /* InputView.swift */; };
+		7967B0A5287683C400B9003E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0A4287683C400B9003E /* MainView.swift */; };
+		7967B0A7287683E600B9003E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0A6287683E600B9003E /* GameView.swift */; };
+		7967B0AC2876849E00B9003E /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0AB2876849E00B9003E /* ButtonModifier.swift */; };
+		7967B0B32876850F00B9003E /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0B22876850F00B9003E /* CardTransition.swift */; };
+		7967B0B52876854200B9003E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0B42876854200B9003E /* Game.swift */; };
+		7967B0B82876856600B9003E /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0B72876856600B9003E /* Team.swift */; };
+		7967B0BA2876859500B9003E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0B92876859500B9003E /* PlaySound.swift */; };
+		7967B0BD2876908E00B9003E /* Taboo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0BC2876908E00B9003E /* Taboo.swift */; };
+		7967B0C52876ACB200B9003E /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7967B0C42876ACB200B9003E /* ScoreView.swift */; };
+		79EB25B328775D160084229D /* PlaceHolderColorChanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB25B228775D160084229D /* PlaceHolderColorChanger.swift */; };
+		79EB25B6287835DF0084229D /* time-finished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79EB25B4287835DF0084229D /* time-finished.mp3 */; };
+		79EB25B7287835DF0084229D /* tic-toc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79EB25B5287835DF0084229D /* tic-toc.mp3 */; };
+		79EB25BB28784F320084229D /* pass-failed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79EB25B928784F310084229D /* pass-failed.mp3 */; };
+		79EB25BC28784F320084229D /* true-answer-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79EB25BA28784F320084229D /* true-answer-sound.mp3 */; };
+		79EB25BE28784FE70084229D /* taboo-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79EB25BD28784FE70084229D /* taboo-sound.mp3 */; };
+		79EB25C0287858F80084229D /* Arc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB25BF287858F80084229D /* Arc.swift */; };
+		79EB25C42878CCF80084229D /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EB25C32878CCF80084229D /* SymbolModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		790FF8F028733FE70052E4F6 /* TabuLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabuLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		790FF8F328733FE70052E4F6 /* TabuLandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabuLandApp.swift; sourceTree = "<group>"; };
+		790FF8F728733FE90052E4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		790FF8FA28733FE90052E4F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7967B09C287682CC00B9003E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7967B09E2876832200B9003E /* TabulandData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabulandData.swift; sourceTree = "<group>"; };
+		7967B0A12876838900B9003E /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		7967B0A4287683C400B9003E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7967B0A6287683E600B9003E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7967B0AB2876849E00B9003E /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		7967B0B22876850F00B9003E /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		7967B0B42876854200B9003E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		7967B0B72876856600B9003E /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		7967B0B92876859500B9003E /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		7967B0BC2876908E00B9003E /* Taboo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taboo.swift; sourceTree = "<group>"; };
+		7967B0C42876ACB200B9003E /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		79EB25B228775D160084229D /* PlaceHolderColorChanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderColorChanger.swift; sourceTree = "<group>"; };
+		79EB25B4287835DF0084229D /* time-finished.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "time-finished.mp3"; sourceTree = "<group>"; };
+		79EB25B5287835DF0084229D /* tic-toc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tic-toc.mp3"; sourceTree = "<group>"; };
+		79EB25B928784F310084229D /* pass-failed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "pass-failed.mp3"; sourceTree = "<group>"; };
+		79EB25BA28784F320084229D /* true-answer-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "true-answer-sound.mp3"; sourceTree = "<group>"; };
+		79EB25BD28784FE70084229D /* taboo-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "taboo-sound.mp3"; sourceTree = "<group>"; };
+		79EB25BF287858F80084229D /* Arc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arc.swift; sourceTree = "<group>"; };
+		79EB25C32878CCF80084229D /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790FF8ED28733FE70052E4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790FF8E728733FE70052E4F6 = {
+			isa = PBXGroup;
+			children = (
+				790FF8F228733FE70052E4F6 /* TabuLand */,
+				790FF8F728733FE90052E4F6 /* Assets.xcassets */,
+				790FF8F128733FE70052E4F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790FF8F128733FE70052E4F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790FF8F028733FE70052E4F6 /* TabuLand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790FF8F228733FE70052E4F6 /* TabuLand */ = {
+			isa = PBXGroup;
+			children = (
+				790FF8F328733FE70052E4F6 /* TabuLandApp.swift */,
+				7967B0A02876832A00B9003E /* Data */,
+				7967B09B287682B300B9003E /* View */,
+				7967B0B62876854600B9003E /* Model */,
+				7967B0AA2876846C00B9003E /* Modifier */,
+				7967B0B1287684EF00B9003E /* Extension */,
+				7967B0BB2876859A00B9003E /* Helper */,
+				79EB25B8287835E40084229D /* Sound */,
+				790FF8F928733FE90052E4F6 /* Preview Content */,
+			);
+			path = TabuLand;
+			sourceTree = "<group>";
+		};
+		790FF8F928733FE90052E4F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				790FF8FA28733FE90052E4F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7967B09B287682B300B9003E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7967B09C287682CC00B9003E /* CardView.swift */,
+				7967B0A12876838900B9003E /* InputView.swift */,
+				7967B0A4287683C400B9003E /* MainView.swift */,
+				7967B0A6287683E600B9003E /* GameView.swift */,
+				7967B0C42876ACB200B9003E /* ScoreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7967B0A02876832A00B9003E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7967B09E2876832200B9003E /* TabulandData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7967B0AA2876846C00B9003E /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				7967B0AB2876849E00B9003E /* ButtonModifier.swift */,
+				79EB25C32878CCF80084229D /* SymbolModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		7967B0B1287684EF00B9003E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7967B0B22876850F00B9003E /* CardTransition.swift */,
+				79EB25B228775D160084229D /* PlaceHolderColorChanger.swift */,
+				79EB25BF287858F80084229D /* Arc.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7967B0B62876854600B9003E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7967B0B42876854200B9003E /* Game.swift */,
+				7967B0B72876856600B9003E /* Team.swift */,
+				7967B0BC2876908E00B9003E /* Taboo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7967B0BB2876859A00B9003E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7967B0B92876859500B9003E /* PlaySound.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		79EB25B8287835E40084229D /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				79EB25BD28784FE70084229D /* taboo-sound.mp3 */,
+				79EB25B928784F310084229D /* pass-failed.mp3 */,
+				79EB25BA28784F320084229D /* true-answer-sound.mp3 */,
+				79EB25B5287835DF0084229D /* tic-toc.mp3 */,
+				79EB25B4287835DF0084229D /* time-finished.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790FF8EF28733FE70052E4F6 /* TabuLand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790FF8FE28733FE90052E4F6 /* Build configuration list for PBXNativeTarget "TabuLand" */;
+			buildPhases = (
+				790FF8EC28733FE70052E4F6 /* Sources */,
+				790FF8ED28733FE70052E4F6 /* Frameworks */,
+				790FF8EE28733FE70052E4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabuLand;
+			productName = TabuLand;
+			productReference = 790FF8F028733FE70052E4F6 /* TabuLand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790FF8E828733FE70052E4F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					790FF8EF28733FE70052E4F6 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 790FF8EB28733FE70052E4F6 /* Build configuration list for PBXProject "TabuLand" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 790FF8E728733FE70052E4F6;
+			productRefGroup = 790FF8F128733FE70052E4F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790FF8EF28733FE70052E4F6 /* TabuLand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790FF8EE28733FE70052E4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79EB25BE28784FE70084229D /* taboo-sound.mp3 in Resources */,
+				79EB25B7287835DF0084229D /* tic-toc.mp3 in Resources */,
+				79EB25B6287835DF0084229D /* time-finished.mp3 in Resources */,
+				79EB25BB28784F320084229D /* pass-failed.mp3 in Resources */,
+				790FF8FB28733FE90052E4F6 /* Preview Assets.xcassets in Resources */,
+				79EB25BC28784F320084229D /* true-answer-sound.mp3 in Resources */,
+				790FF8F828733FE90052E4F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790FF8EC28733FE70052E4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7967B0A5287683C400B9003E /* MainView.swift in Sources */,
+				7967B0C52876ACB200B9003E /* ScoreView.swift in Sources */,
+				79EB25C0287858F80084229D /* Arc.swift in Sources */,
+				7967B0B82876856600B9003E /* Team.swift in Sources */,
+				7967B0B52876854200B9003E /* Game.swift in Sources */,
+				7967B09D287682CC00B9003E /* CardView.swift in Sources */,
+				7967B0BD2876908E00B9003E /* Taboo.swift in Sources */,
+				7967B0B32876850F00B9003E /* CardTransition.swift in Sources */,
+				7967B0AC2876849E00B9003E /* ButtonModifier.swift in Sources */,
+				7967B0A22876838900B9003E /* InputView.swift in Sources */,
+				7967B09F2876832200B9003E /* TabulandData.swift in Sources */,
+				7967B0BA2876859500B9003E /* PlaySound.swift in Sources */,
+				790FF8F428733FE70052E4F6 /* TabuLandApp.swift in Sources */,
+				7967B0A7287683E600B9003E /* GameView.swift in Sources */,
+				79EB25B328775D160084229D /* PlaceHolderColorChanger.swift in Sources */,
+				79EB25C42878CCF80084229D /* SymbolModifier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		790FF8FC28733FE90052E4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		790FF8FD28733FE90052E4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790FF8FF28733FE90052E4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabuLand/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FQT58QHTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bahadiretka.TabuLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		790FF90028733FE90052E4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TabuLand/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FQT58QHTS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bahadiretka.TabuLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790FF8EB28733FE70052E4F6 /* Build configuration list for PBXProject "TabuLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790FF8FC28733FE90052E4F6 /* Debug */,
+				790FF8FD28733FE90052E4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790FF8FE28733FE90052E4F6 /* Build configuration list for PBXNativeTarget "TabuLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790FF8FF28733FE90052E4F6 /* Debug */,
+				790FF90028733FE90052E4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790FF8E828733FE70052E4F6 /* Project object */;
+}
